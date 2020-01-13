@@ -1,5 +1,10 @@
 # pxToVw
-该项目的chrome-extension为插件代码
+该项目的chrome-extension文件夹为插件代码
+
+# 下载
+1.可以拉取本仓库的代码,chrome-extension文件夹为扩展程序
+
+2.下载chrome-extension.rar,解压后获得chrome-extension文件夹
 
 # 安装
 第一步：点击chrome的设置->更多工具->扩展程序
@@ -20,4 +25,13 @@
 
 第五步：点击右上角的图标，即可弹出单位转换小工具
 
-![step5](https://img.ljcdn.com/beike/agent-sj-sdk/1578887987274.png)
+![step5](https://img.ljcdn.com/beike/agent-sj-sdk/1578888727926.png)
+
+# 使用
+左侧是需要被转换的包含css的代码片段,点击转换后，右侧边框内会显示转换后的代码片段
+
+填写需要从什么单位转换为什么单位，然后配置需要乘以的系数和除以的系数。
+
+比如默认的从px转换为vw单位，我需要乘以100，再除以375
+
+![使用](https://img.ljcdn.com/beike/agent-sj-sdk/1578888540740.png)
