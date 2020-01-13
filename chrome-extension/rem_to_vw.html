@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div style="width: 700px; text-align: center">
+  <textarea name="初始化" id="before" cols="100" rows="40" style="width: 300px; height: 500px;">
+
+</textarea>
+
+  <button id="doTrans">转换</button>
+
+  <textarea name="转换后" id="result" cols="100" rows="40" style="width: 300px; height: 500px;">
+
+</textarea>
+</div>
+<div style="margin-top: 10px; text-align: center">
+  乘<input type="number" id="client-compute" value="100" style="width: 120px">
+  除以<input type="number" id="font-compute" value="375" style="width: 120px">
+  由<input type="text" id="transform-before" value="px" style="width: 70px">单位转换为
+  <input type="text" id="transform-after" value="vw" style="width: 70px">单位
+</div>
+</body>
+<script src="./rem_to_vw.js"></script>
+</html>

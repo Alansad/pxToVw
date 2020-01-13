@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "pxToVw",
+  "version": "1.1",
+  "description": "A gadget for converting units",
+  "author": "gjt",
+  "icons":
+  {
+    "16": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "browser_action":
+  {
+    "default_icon": "logo.png",
+    "default_popup": "rem_to_vw.html"
+  }
+}
