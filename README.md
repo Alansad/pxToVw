@@ -4,7 +4,9 @@
 # 下载
 1.可以拉取本仓库的代码,chrome-extension文件夹为扩展程序
 
-2.下载chrome-extension.rar,解压后获得chrome-extension文件夹
+2.下载chrome-extension.zip,解压后获得chrome-extension文件夹
+
+链接: https://pan.baidu.com/s/14TsQDUfO9Ig1v5JOFWFe7A 提取码: 89ga 
 
 # 安装
 第一步：点击chrome的设置->更多工具->扩展程序
