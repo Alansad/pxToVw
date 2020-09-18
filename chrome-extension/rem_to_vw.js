@@ -12,6 +12,7 @@ function doTransFrom() {
     newtip,
     multiple,
     divide)
+  getTestRequest()
 }
 
 // 将小数点前的0补齐
@@ -39,6 +40,17 @@ function exchangeAllNew(_s, oldtip, newtip, multiple, divide) {
   })
   return newStr
 }
+
+function getTestRequest (){
+    fetch('https://cmsnewhouse-bd.ke.com/api/auth/check', {
+      method: "get",
+      credentials: 'include',
+    }).then(function(response) {
+      console.log(response)
+    }, function(error) {
+      console.log(error)
+    })
+  }
 //
 //
 // // rem转vw的函数
